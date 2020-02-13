@@ -37,7 +37,7 @@ app.layout = html.Div(children=[
                         ],
                 value='choose',
                 ),
-        ],className='two columns'),
+        ],className='three columns'),
         html.Div([
             dcc.RadioItems(
                 id='pick-a-number',
@@ -48,7 +48,7 @@ app.layout = html.Div(children=[
                         ],
                 value='one',
                 ),
-        ],className='two columns'),
+        ],className='three columns'),
         html.Div([
             html.Div(id='your_output_here', children=''),
         ],className='eight columns'),
